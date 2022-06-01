@@ -1,15 +1,15 @@
-import { Button, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
-const UserHeader = () => {
+const NutriHeader  = () => {
   return (
     <>
       <div
         className="header pb-8 pt-5 pt-lg-8 d-flex align-items-center"
         style={{
-          minHeight: "600px",
+          minHeight: "400px",
           backgroundImage:
             "url(" +
-            require("../../assets/img/theme/profile-cover.jpg").default +
+            require("../../assets/img/theme/nutriBacground.jpg").default +
             ")",
           backgroundSize: "cover",
           backgroundPosition: "center top",
@@ -20,18 +20,11 @@ const UserHeader = () => {
         {/* Header container */}
         <Container className="d-flex align-items-center" fluid>
           <Row>
-            <Col lg="7" md="10">
-              <h1 className="display-2 text-white">Hello Dev</h1>
+            <Col lg="10" md="10">
+              <h1 className="display-2 text-white">Cadastre os Nutricionista</h1>
               <p className="text-white mt-0 mb-5">
-               Aqui é o seu perfil, onde tem todas as informações sobre você.
+               Aqui você poderá cadastrar os nutricionista que manterá a sua alimentação balanceada diariamente.
               </p>
-              <Button
-                color="info"
-                href="#pablo"
-                onClick={(e) => e.preventDefault()}
-              >
-                Editar perfil
-              </Button>
             </Col>
           </Row>
         </Container>
@@ -39,5 +32,4 @@ const UserHeader = () => {
     </>
   );
 };
-
-export default UserHeader;
+export default NutriHeader ;
