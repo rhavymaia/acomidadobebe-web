@@ -94,6 +94,7 @@ const Alimentos = () => {
                                                         Nome do alimento
                                                     </label>
                                                     <Input
+                                                        onChange={(event) => handleChange(event)}
                                                         className="form-control-alternative"
                                                         id="input-username"
                                                         name="nome"
@@ -112,6 +113,7 @@ const Alimentos = () => {
                                                         Grupo alimentar
                                                     </label>
                                                     <Input
+                                                        onChange={(event) => handleChange(event)}
                                                         className="form-control-alternative"
                                                         id="grupo_nutricional"
                                                         name="grupo_nutricional"
