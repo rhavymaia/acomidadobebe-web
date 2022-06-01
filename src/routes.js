@@ -21,6 +21,7 @@ import Login from "views/examples/Login.js";
 import Icons from "views/examples/Icons.js";
 import Alimentos from "views/examples/Alimentos.js";
 import Refeicao from "views/examples/Refeicao.js";
+import Nutricionista from "views/examples/Nutricionista.js";
 
 var routes = [
   {
@@ -42,6 +43,13 @@ var routes = [
     name: "Alimentos",
     icon: "ni ni-single-02 text-yellow",
     component: Alimentos,
+    layout: "/admin",
+  },
+  {
+    path: "/nutricionista",
+    name: "Nutricionista",
+    icon: "ni ni-single-02 text-yellow",
+    component: Nutricionista,
     layout: "/admin",
   },
   {

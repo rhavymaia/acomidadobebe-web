@@ -15,7 +15,7 @@ import {
 // core components
 import AlimentoseHeader from "components/Headers/AlimentosHeader ";
 
-const Profile = () => {
+const Alimentos = () => {
     const url = "http://localhost:8080/ingrediente";
     const [formValue, setformValue] = useState({
         nome: "",
@@ -159,4 +159,4 @@ const Profile = () => {
     );
 };
 
-export default Profile;
+export default Alimentos;
