@@ -23,7 +23,7 @@ const NutriHeader  = () => {
             <Col lg="10" md="10">
               <h1 className="display-2 text-white">Cadastre os Nutricionista</h1>
               <p className="text-white mt-0 mb-5">
-               Aqui você poderá cadastrar os nutricionista que mantem a sua alimentação balanceada diariamente.
+               Aqui você poderá cadastrar os nutricionista que manterá a sua alimentação balanceada diariamente.
               </p>
             </Col>
           </Row>
